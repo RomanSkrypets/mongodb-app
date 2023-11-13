@@ -4,18 +4,6 @@ For using service follow this step:
   2. After success install - run command **kind create cluster** for create your own Kubernetes cluster.
   3. Use this commands for delpoying mongo application in Kubernetes
 
-IF you have problem with deploy secret - try:\
-echo 'username' | base64\
-**dXNlcm5hbWUK**\
-echo 'password' | base64\
-**cGFzc3dvcmQK**
-
-And add output in secret\
-mongo-root-username: dXNlcm5hbWUK\
-mongo-root-password: cGFzc3dvcmQK
-
-
-
 ### kubectl apply commands in order
 
   kubectl apply -f mongo-secret.yaml\
