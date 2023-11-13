@@ -1,8 +1,7 @@
 # mongodb-app
 For using service follow this step:
-  1. Run install_all.sh script for install GO, Docker, Kind, kubelet services. ( before run script use **sudo chmod 755 install_all.sh** )
-  2. After success install - run command **kind create cluster** for create your own Kubernetes cluster.
-  3. Use this commands for delpoying mongo application in Kubernetes
+  1. You must have installed Docker, Kubelet services and Minikube
+  2. Use this commands for delpoying mongo application in Kubernetes
 
 ### kubectl apply commands in order
 
@@ -19,7 +18,6 @@ For using service follow this step:
   kubectl get service\
   kubectl get secret\
   kubectl get all | grep mongodb
-
 
 
 ### kubectl debugging commands
