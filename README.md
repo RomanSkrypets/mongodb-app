@@ -1,6 +1,6 @@
 # mongodb-app
 For using service follow this step:
-  1. You must have installed Docker, Kubelet services and Minikube
+  1. You must have installed Docker, Kubelet services and Minikube OR you can use **install_all_minilube.sh** with permission 755 on Linux
   2. Use this commands for delpoying mongo application in Kubernetes
 
 ### kubectl apply commands in order
